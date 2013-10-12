@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+       
+        <form method="post" action="../controlador/CrearProblema.php" enctype="multipart/form-data">
+            Nombre del problema:
+            <input type="text"    name="nombre">     <br>          
+     
+            <label>Seleccione los archivos</label><br>
+            inserte el enunciado:                               <input type="file" name="enunciado"><br>
+            inserte la entrada: &nbsp; &nbsp;    <br>               <textarea cols="50" rows="10" name="in" > </textarea><br>
+            inserte la salida:  &nbsp; &nbsp;&nbsp; &nbsp;<br>      <textarea cols="50" rows="10" name="out"> </textarea><br>
+
+            <input type="submit" value="Crear Problema">
+            <strong>Seccion de creacion de problemas </strong>
+            
+        </form>
+    </body>
+</html>

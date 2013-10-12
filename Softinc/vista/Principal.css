@@ -1,0 +1,83 @@
+#menu{
+    width: 680px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+}
+#menu ul{
+	margin: 0 auto;      /* para centrar*/
+	padding: 70px 0px 0px;
+	list-style: none;
+}
+#menu li{
+    float: left;
+    list-style: none;
+    background: url(images/img02.gif) no-repeat;
+    margin-right: 3px;
+}
+#menu a{
+    width: 130px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+#cabeza { /* sirve para la imagen*/
+	width: 980px; /* ancho  de la imagen*/
+	height: 280px;/* altura de la imagen*/
+	margin: 0 auto;
+	padding: 0px;
+	background: url(images/img06.gif) no-repeat;
+}
+
+#pagina{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 40px;
+	background: url(images/img03.gif) repeat-y left top;
+}
+
+#buscador{
+   
+width: 280px;
+height: 60px;
+background: #E2E2E2;
+
+
+}
+#buscador form{
+    padding: 20px 0px 0px 20px;
+}
+#barra{
+    float: right;
+}
+#barra li{
+ list-style: none;
+}
+
+
+
+
+
+#pie{
+  	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background: #ECECEC;
+	border-top: 1px solid #DEDEDE;
+	font-family: Arial, Helvetica, sans-serif;
+        
+}
+#pie p{
+    text-align: center;
+}
+
